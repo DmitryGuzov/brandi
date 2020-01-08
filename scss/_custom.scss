@@ -1,0 +1,19 @@
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+) !default;
+// 14/16=0.875
+// 1rem = 16px; -не наследует пропорции от родителя
+// em тоже 16px но наследует пропорции от родителя
+$navbar-light-color: #ffffff;
+$navbar-light-hover-color: #ffffff;
+$navbar-light-active-color: #ffffff;
+$carousel-indicator-width: 4px;
+$carousel-indicator-height: 4px;
+$h1-font-size: 3.875rem;
+$badge-padding-y:	10px;
+$badge-padding-x:  18px;
+$font-family-base: 'Open Sans', sans-serif;
